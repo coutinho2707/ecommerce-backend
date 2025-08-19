@@ -13,7 +13,7 @@ import { Brand } from './brand.entity';
 import { BrandService } from './brand.service';
 
 @Controller('brands')
-export class CategoryController {
+export class BrandController {
   constructor(private service: BrandService) {}
 
   @Get()
